@@ -55,7 +55,7 @@ public class IIIFProducer {
 
     private static final ObjectMapper MAPPER = new ObjectMapper();
     @Builder.Default
-    private String baseUrl = "https://iiif.ub.uni-leipzig.de/";
+    private String baseUrl = "https://iiifserv.ulb.tu-darmstadt.de/";
     @Builder.Default
     private String canvasContext = "/canvas";
     @Builder.Default
@@ -76,7 +76,7 @@ public class IIIFProducer {
     private String resourceContext;
     private String viewId;
     @Builder.Default
-    private String viewerUrl = "https://digital.ub.uni-leipzig.de/object/viewid/";
+    private String viewerUrl = "https://tudigit.ulb.tu-darmstadt.de/show/";
     private String xmlFile;
 
     /**

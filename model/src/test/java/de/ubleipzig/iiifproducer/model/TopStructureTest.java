@@ -45,9 +45,9 @@ class TopStructureTest {
     @BeforeAll
     static void setup() {
         final List<String> ranges = asList(
-                "https://iiif.ub.uni-leipzig.de/0000004084/range/0-0",
+                "https://iiifserv.ulb.tu-darmstadt.de/0000004084/range/0-0",
                 "https://iiif.ub" + ".uni-leipzig.de/0000004084/range/0-1",
-                "https://iiif.ub.uni-leipzig.de/0000004084/range/0-2");
+                "https://iiifserv.ulb.tu-darmstadt.de/0000004084/range/0-2");
         mockTopStructure.setLabel("TOC");
         mockTopStructure.setId("http://test.org/12345/range/0");
         mockTopStructure.setRanges(ranges);

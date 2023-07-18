@@ -174,12 +174,12 @@
          <mets:file ID="FILE_0001_MAX" MIMETYPE="application/vnd.kitodo.iiif">
             <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink"
                          LOCTYPE="URL"
-                         xlink:href="https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0356/0000035691/00000001.jpx"/>
+                         xlink:href="https://iiifserv.ulb.tu-darmstadt.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0356/0000035691/00000001.jpx"/>
          </mets:file>
          <mets:file ID="FILE_0002_MAX" MIMETYPE="application/vnd.kitodo.iiif">
             <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink"
                          LOCTYPE="URL"
-                         xlink:href="https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0356/0000035691/00000002.jpx"/>
+                         xlink:href="https://iiifserv.ulb.tu-darmstadt.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0356/0000035691/00000002.jpx"/>
          </mets:file>
       </mets:fileGrp>
    </mets:fileSec>

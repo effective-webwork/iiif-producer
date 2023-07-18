@@ -36,11 +36,11 @@ public class IRIBuilderTest {
 
     @BeforeAll
     static void init() {
-        resourceContext = "https://iiif.ub.uni-leipzig.de/" + "0000004057";
+        resourceContext = "https://iiifserv.ulb.tu-darmstadt.de/" + "0000004057";
         iriBuilder = IRIBuilder.builder()
                 .annotationContext("/anno")
                 .canvasContext("/canvas")
-                .imageServiceBaseUrl("https://iiif.ub.uni-leipzig.de/iiif")
+                .imageServiceBaseUrl("https://iiifserv.ulb.tu-darmstadt.de/iiif")
                 .imageServiceFileExtension(".jpx")
                 .imageServiceImageDirPrefix("/j2k/")
                 .isUBLImageService(true)
@@ -55,7 +55,7 @@ public class IRIBuilderTest {
         final IRI serviceIri = iriBuilder.buildServiceIRI(imageServiceContext, resourceIdString);
         assertNotNull(serviceIri);
         assertEquals(
-                "https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0040/0000004057/00000002.jpx", serviceIri.getIRIString());
+                "https://iiifserv.ulb.tu-darmstadt.de/iiif/j2k/0000/0040/0000004057/00000002.jpx", serviceIri.getIRIString());
     }
 
     @Test
@@ -84,6 +84,6 @@ public class IRIBuilderTest {
     @Test
     void testBuildImageServiceContext() {
         final String imageServiceContext = iriBuilder.buildImageServiceContext("12345");
-        assertEquals("https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0123/0000012345", imageServiceContext);
+        assertEquals("https://iiifserv.ulb.tu-darmstadt.de/iiif/j2k/0000/0123/0000012345", imageServiceContext);
     }
 }

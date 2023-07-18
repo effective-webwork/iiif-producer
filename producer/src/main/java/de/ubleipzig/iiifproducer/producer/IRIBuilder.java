@@ -51,7 +51,7 @@ public final class IRIBuilder {
     @Builder.Default
     private String canvasContext = "/canvas";
     @Builder.Default
-    private String imageServiceBaseUrl = "https://iiif.ub.uni-leipzig.de/iiif";
+    private String imageServiceBaseUrl = "https://iiifserv.ulb.tu-darmstadt.de/iiif";
     @Builder.Default
     private String imageServiceFileExtension = ".jpx";
     @Builder.Default

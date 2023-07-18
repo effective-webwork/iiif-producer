@@ -45,7 +45,7 @@ bin/producer -x xmlFile -o outputfile -v view_identifier -c configFile -f v2
 
 The images must already be present on the image server consistent the semantics of the service URL builder.
 
-Example: `https://iiif.ub.uni-leipzig.de/iiif/j2k/{$viewId[0-4]}/{$viewId[5-8]}/{$viewId[0-10]}/{imageIndex[0-8]}.jpx`
+Example: `https://iiifserv.ulb.tu-darmstadt.de/iiif/j2k/{$viewId[0-4]}/{$viewId[5-8]}/{$viewId[0-10]}/{imageIndex[0-8]}.jpx`
 
 ## Java
 

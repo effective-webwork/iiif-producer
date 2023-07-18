@@ -39,13 +39,13 @@ public class ConverterUtilsTest {
     @Test
     void buildHomePagesTest() {
         String[] relatedArray = {
-            "https://katalog.ub.uni-leipzig.de/urn/xyz:1144:55", "http://example.com/123456",
+            "http://orsprod.rz.uni-frankfurt.de/xyz:1144:55", "http://example.com/123456",
                 "presentation.xml", "manifest.json"
         };
         List<Homepage> homepages = utils.buildHomepages(Arrays.asList(relatedArray));
         Homepage hp = homepages.stream().findFirst().orElse(null);
         assert hp != null;
-        assertEquals("https://katalog.ub.uni-leipzig.de/urn/xyz:1144:55", hp.getId());
+        assertEquals("http://orsprod.rz.uni-frankfurt.de/xyz:1144:55", hp.getId());
         assertEquals(2, homepages.size());
     }
 

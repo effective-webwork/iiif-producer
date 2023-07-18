@@ -398,7 +398,7 @@
                 <mets:xmlData>
                     <dv:rights xmlns:dv="http://dfg-viewer.de/">
                         <dv:owner>Leipzig University Library</dv:owner>
-                        <dv:ownerLogo>https://iiif.ub.uni-leipzig.de/ubl-logo.png</dv:ownerLogo>
+                        <dv:ownerLogo>https://iiifserv.ulb.tu-darmstadt.de/ubl-logo.png</dv:ownerLogo>
                         <dv:ownerSiteURL>https://ub.uni-leipzig.de</dv:ownerSiteURL>
                         <dv:ownerContact>mailto:info@ub.uni-leipzig.de</dv:ownerContact>
                     </dv:rights>

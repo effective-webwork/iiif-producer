@@ -79,10 +79,10 @@ class ProducerTest {
         producer.setRelated(manifest, "urn:1234", "00123456", false);
         List<String> related = (List)manifest.getRelated();
         assertEquals(4, related.size());
-        assertTrue(related.contains("https://katalog.ub.uni-leipzig.de/urn/urn:nbn:de:bsz:15-0013-221052"));
-        assertTrue(related.contains("https://digital.ub.uni-leipzig.de/object/viewid/00123456"));
-        assertTrue(related.contains("https://iiif.ub.uni-leipzig.de/00123456/manifest.json"));
-        assertTrue(related.contains("https://iiif.ub.uni-leipzig.de/00123456/presentation.xml"));
+        assertTrue(related.contains("http://orsprod.rz.uni-frankfurt.de/urn:nbn:de:bsz:15-0013-221052"));
+        assertTrue(related.contains("https://tudigit.ulb.tu-darmstadt.de/show/00123456"));
+        assertTrue(related.contains("https://iiifserv.ulb.tu-darmstadt.de/00123456/manifest.json"));
+        assertTrue(related.contains("https://iiifserv.ulb.tu-darmstadt.de/00123456/presentation.xml"));
     }
 
     @Test
@@ -95,9 +95,9 @@ class ProducerTest {
         producer.setRelated(manifest, "urn:1234", "00123456", false);
         List<String> related = (List)manifest.getRelated();
         assertEquals(3, related.size());
-        assertTrue(related.contains("https://digital.ub.uni-leipzig.de/object/viewid/00123456"));
-        assertTrue(related.contains("https://iiif.ub.uni-leipzig.de/00123456/manifest.json"));
-        assertTrue(related.contains("https://iiif.ub.uni-leipzig.de/00123456/presentation.xml"));
+        assertTrue(related.contains("https://tudigit.ulb.tu-darmstadt.de/show/00123456"));
+        assertTrue(related.contains("https://iiifserv.ulb.tu-darmstadt.de/00123456/manifest.json"));
+        assertTrue(related.contains("https://iiifserv.ulb.tu-darmstadt.de/00123456/presentation.xml"));
     }
 
     @Test
@@ -110,7 +110,7 @@ class ProducerTest {
         producer.setRelated(manifest, "urn:1234", "00123456", true);
         List<String> related = (List)manifest.getRelated();
         assertEquals(1, related.size());
-        assertTrue(related.contains("https://iiif.ub.uni-leipzig.de/00123456/manifest.json"));
+        assertTrue(related.contains("https://iiifserv.ulb.tu-darmstadt.de/00123456/manifest.json"));
     }
 
     void testAttributionWithCopyrightHolder() {

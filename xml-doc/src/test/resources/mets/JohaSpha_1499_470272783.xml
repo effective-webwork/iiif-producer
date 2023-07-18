@@ -272,7 +272,7 @@
                 <mets:xmlData>
                     <dv:rights xmlns:dv="http://dfg-viewer.de/">
                         <dv:owner>Leipzig University Library</dv:owner>
-                        <dv:ownerLogo>https://iiif.ub.uni-leipzig.de/ubl-logo.png</dv:ownerLogo>
+                        <dv:ownerLogo>https://iiifserv.ulb.tu-darmstadt.de/ubl-logo.png</dv:ownerLogo>
                         <dv:ownerSiteURL>https://ub.uni-leipzig.de</dv:ownerSiteURL>
                         <dv:ownerContact>mailto:info@ub.uni-leipzig.de</dv:ownerContact>
                     </dv:rights>
@@ -284,7 +284,7 @@
                 <mets:xmlData>
                     <dv:links xmlns:dv="http://dfg-viewer.de/">
                         <dv:reference>
-                            https://katalog.ub.uni-leipzig.de/urn/urn:nbn:de:bsz:15-0013-221052
+                            http://orsprod.rz.uni-frankfurt.de/urn:nbn:de:bsz:15-0013-221052
                         </dv:reference>
                         <dv:presentation>
                             http://nbn-resolving.de/urn:nbn:de:bsz:15-0013-221052
